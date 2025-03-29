@@ -14,13 +14,14 @@
     box-sizing: border-box;
     background: var(--bg-color);
     display: flex;
-    align-items: center;
+    align-items: bottom;
     justify-content: center;
   }
   .container {
     height: 100vh;
     display: grid;
-    place-items: center;
+    /* place-items: center; */
+    align-items: end;
   }
   .container > .envelope-wrapper {
     background: var(--bg-envelope-color);
@@ -74,7 +75,7 @@
   }
   .heart {
     position: absolute;
-    top: 50%;
+    bottom: 90px;
     left: 50%;
     width: 15px;
     height: 15px;
